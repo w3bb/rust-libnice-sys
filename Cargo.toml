@@ -1,0 +1,13 @@
+[package]
+name = "libnice-sys"
+version = "0.1.0"
+authors = ["Jonas Herzig <me@johni0702.de>"]
+edition = "2018"
+links = "nice"
+description = "Rust FFI bindings to libnice, automatically generated with bindgen."
+license = "LGPL-2.1 OR MPL-1.1"
+repository = "https://github.com/johni0702/rust-libnice-sys"
+
+[build-dependencies]
+bindgen = "0.42"
+pkg-config = "0.3"
