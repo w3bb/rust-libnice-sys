@@ -1,6 +1,6 @@
 [package]
 name = "libnice-sys"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Jonas Herzig <me@johni0702.de>"]
 edition = "2018"
 links = "nice"
@@ -9,11 +9,11 @@ license = "LGPL-2.1 OR MPL-1.1"
 repository = "https://github.com/johni0702/rust-libnice-sys"
 
 [dependencies]
-gio-sys = "0.7"
-gobject-sys = "0.7"
-glib-sys = "0.7"
+gio-sys = "0.9"
+gobject-sys = "0.9"
+glib-sys = "0.9"
 libc = "0.2"
 
 [build-dependencies]
-bindgen = "0.42"
+bindgen = "0.53"
 pkg-config = "0.3"
