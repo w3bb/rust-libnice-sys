@@ -9,9 +9,9 @@ license = "LGPL-2.1 OR MPL-1.1"
 repository = "https://github.com/johni0702/rust-libnice-sys"
 
 [dependencies]
-gio-sys = "0.9"
-gobject-sys = "0.9"
-glib-sys = "0.9"
+gio-sys = "0.10"
+gobject-sys = "0.10"
+glib-sys = "0.10"
 libc = "0.2"
 
 [build-dependencies]
